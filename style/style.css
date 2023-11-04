@@ -14,3 +14,14 @@ footer p {
   font-size: large;
   color: white;
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: row;
+  }
+}
